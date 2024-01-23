@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #201b2c;
+    background-size: cover;
+    background-position: center;
+    font-family: "Kanit", sans-serif;
+    font: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 12%;
+    background-color: #121212;
+    
+}
+
+.cabecalho .menu_inicio{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 80px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #201b2c;
+    background-size: cover;
+    background-position: center;
+    font-family: "Kanit", sans-serif;
+    font: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.TelaDeLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.TelaDeLogin h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.TelaDeLogin .Login{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.TelaDeLogin input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(70, 0, 121);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.TelaDeLogin input::placeholder{
+    color: #fff;
+}
+
+.Lembrar-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.Lembrar-me label {
+    white-space: nowrap;
+    padding: 2px;
+  }
+
+.checkboxLembrar-me{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.TelaDeLogin label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.TelaDeLogin a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.TelaDeLogin a:hover{
+    text-decoration: underline;
+}
+
+.TelaDeLogin .botao{
+    width: 100%;
+    height: 40px;
+    background: rgb(4, 234, 4);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.TelaDeLogin .Registrar{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Registar p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
